@@ -13,5 +13,5 @@ var options = {
 client = mqtt.connect(url,options);
 
 //publish or send message
-client.publish("myTopicNameHere","Hello MQTT");
+client.publish("serverTopic","Hello MQTT");
 
